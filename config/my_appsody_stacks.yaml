@@ -1,0 +1,13 @@
+# Gary's Stack Hub
+name: Gary's Stack Hub
+description: This is a very simple stack hub that contains 1 stack.
+version: 0.1.0
+stacks:
+  - name: garysstacks
+    repos:
+      - url: https://github.com/appsody/stacks/releases/latest/download/incubator-index.yaml
+        include: 
+          - java-microprofile
+image-org: gpicher
+image-registry: docker.io
+nginx-image-name: garysstacks
